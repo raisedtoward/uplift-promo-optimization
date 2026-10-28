@@ -1,0 +1,19 @@
+{
+  "week": 15,
+  "status": "optimal",
+  "n_users": 60208,
+  "n_assigned": 4197,
+  "assigned_share": 0.069708344406059,
+  "assignment_counts": {
+    "0": 56011,
+    "10": 3523,
+    "20": 220,
+    "30": 100,
+    "40": 354
+  },
+  "weekly_budget": 1750.0,
+  "budget_conservative_coef": 1.25,
+  "projected_spend_optimistic": 1399.9999999999993,
+  "projected_spend_conservative": 1749.999999999999,
+  "expected_incremental_value": 13650.092026538558
+}
