@@ -1,0 +1,40 @@
+[project]
+name = "jet"
+version = "0.1.0"
+description = "Effective promotions assignment through uplift modelling and constraint optimization"
+readme = "README.md"
+authors = [
+    { name = "Aleksandr Nalitkin", email = "nalitkin.sasha@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "causalml>=0.18.0",
+    "cvxpy>=1.9.3",
+    "hiplot>=0.1.33",
+    "lightgbm>=4.7.0",
+    "numpy>=2.5.4",
+    "optuna>=5.0.0",
+    "pandas>=3.1.0",
+    "pathos>=0.2.9",
+    "pdpbox>=0.3.0",
+    "pyarrow>=26.0.0",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "tqdm>=4.70.1",
+]
+
+#[project.scripts]
+#jet = "jet:main"
+#
+#[build-system]
+#requires = ["uv_build>=0.13.5,<0.14.0"]
+#build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "ipywidgets>=8.1.9",
+    "jupyterlab>=4.6.4",
+    "jupyterlab-execute-time>=3.3.0",
+    "notebook>=7.6.3",
+]
