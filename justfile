@@ -6,3 +6,6 @@ lab port="8888":
 
 token:
     grep -m1 token jupyter.log
+
+run:
+    PYTHONPATH=. uv run python -m src.pipeline --retrain
