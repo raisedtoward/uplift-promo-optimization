@@ -1,0 +1,10 @@
+TREATMENT_COL = "treatment"
+METRIC_COL = "metric"
+TIME_COL = "time"
+DATE_COL = "day"
+
+TREATMENT_LABEL = 1
+CONTROL_LABEL = 0
+
+TREATMENT_LABEL_NAME = "Treatment"
+CONTROL_LABEL_NAME = "Control"
